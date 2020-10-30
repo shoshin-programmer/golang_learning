@@ -58,6 +58,9 @@ func main() {
 	// used to convert int to string
 	fmt.Printf("%v, %T\n", i, i)
 
+	j := "test string"
+	fmt.Printf("%v, %T\n", j, j)
+
 	// Outside variable
 	fmt.Printf("%v, %v\n", character, companion)
 
